@@ -15,3 +15,5 @@ $ docker run --rm -it -v $(pwd):/gen joshuamarquez/opencv-java
 ```sh
 $ cp /opencv-java-bin/* .
 ```
+
+The command above copies ```opencv-300.jar``` and ```libopencv_ java300.so``` to your current dir, these files are necessary to run OpenCV on Java.
