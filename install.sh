@@ -18,7 +18,7 @@ make -j8
 mkdir /opencv-java-bin
 cp bin/opencv-300.jar lib/libopencv_java300.so /opencv-java-bin
 
-apt-get remove --purge -y ${tools[@]} && apt-get autoclean && apt-get autoremove && apt-get clean
+apt-get remove --purge -y ${tools[@]} && apt-get autoclean && apt-get -y autoremove && apt-get clean
 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 mkdir /gen
