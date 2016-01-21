@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tools=(build-essential cmake curl default-jdk libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev ant)
+tools=(build-essential cmake curl default-jdk libgtk2.0-dev pkg-config libv4l-dev libavcodec-dev libavformat-dev libswscale-dev python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev ant)
 
 apt-get update && apt-get install -y ${tools[@]}
 
