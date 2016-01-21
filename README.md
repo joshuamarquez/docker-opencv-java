@@ -17,3 +17,8 @@ $ cp /opencv-java-bin/* .
 ```
 
 The command above copies ```opencv-300.jar``` and ```libopencv_java300.so``` to your current dir, these files are necessary to run OpenCV on Java.
+
+## References
+
+* http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html
+* http://docs.opencv.org/2.4/doc/tutorials/introduction/desktop_java/java_dev_intro.html
